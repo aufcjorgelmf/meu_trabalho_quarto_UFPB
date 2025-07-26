@@ -321,7 +321,56 @@ while i < 3:
     i += 1
 ```
 
+## 8. Funções 
+::: {.justify}
+As funções são blocos de código nomeados que podem ser chamados para realizar tarefas específicas. Promovem reutilização, clareza e modularização.
+:::
 
+```bash
+def somar(a, b):
+    return a + b
+
+resultado = somar(10, 5)  # saída: 15
+
+onde:
+- **def** inicia a definição da função;
+
+- os valores que a função recebe são os **parâmetros da função** (a e b, no caso em questão); e 
+
+- **return** define o valor de saída da função.
+
+```
+## 9. Importação de Bibliotecas
+::: {.justify}
+As bibliotecas contêm funções e classes prontas para tarefas específicas. Usar import permite incluir essas ferramentas no seu código.
+:::
+
+```bash
+import math
+print(math.sqrt(25))  # saída: 5.0
+
+import pandas as pd
+df = pd.DataFrame()   # cria um dataframe, que apresenta forma de planilha, possibilitando realizar "query's", entre dados, semelhante ao SQL (seleção de dados, em uma ou mais tabelas, conforme regras pré-definidas)
+
+```
+```bash
+import numpy as np
+
+# Cria uma lista de números
+valores = [10, 20, 30, 40, 50]
+
+# Converte a lista em um array NumPy
+array_valores = np.array(valores)
+
+# Calcula a média dos valores
+media = np.mean(array_valores)
+
+print(f"A média dos valores é: {media}")
+
+```
+::: {.justify}
+É possível importar bibliotecas nativas (como math) ou externas (como pandas, numpy, matplotlib) instaladas com pip.
+:::
 
 
 
