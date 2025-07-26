@@ -157,7 +157,7 @@ Os **tipos de dados** representam as diferentes categorias de valores que podem 
 | `str`     | Cadeias de caracteres (textos), sempre entre aspas simples ou duplas      | `nome = "Pedro"`   |
 | `bool`    | Valores booleanos, representando lógica binária (Verdadeiro/Falso)        | `ativo = True`     |
 
-### 5.2 Variáveis e Operadores Básicos
+### 🧠 5.2 Variáveis e Operadores Básicos
 ::: {.justify}
 As **variáveis** são nomes associados a valores que podem ser armazenados e manipulados ao longo da execução do programa. Os **operadores** realizam operações aritméticas, lógicas ou de comparação.
 :::
