@@ -287,6 +287,17 @@ Usadas para executar blocos de código com base em uma condição lógica.
 :::
 
 ```bash
+if idade >= 60:     # condição a ser analisada, obrigatoriamente.
+    print("Idoso")
+elif idade >= 18:   # condição 'if' alternativa a ser avaliada, quando necessário.
+    print("Adulto")
+else:               # condição residual, que pode ou não existir.
+    print("Menor de idade")
+```
+::: {.justify}
+Exemplo de bloco de código, representando uma condição lógica.
+:::
+```bash
 if idade >= 60:
     print("Idoso")
 elif idade >= 18:
@@ -294,9 +305,21 @@ elif idade >= 18:
 else:
     print("Menor de idade")
 ```
+### 7.2 Estruturas de Repetição
+::: {.justify}
+Usados para executar blocos de código múltiplas vezes. Pode ser realizada com o comando *for* ou 
+com o comando *while*. No caso do laço com *for*, o número de repetições é pré-definido; ao passo 
+que o laço *while* se repete até quando a condição se concretize.
+:::
+```bash
+for cargo in cargos:
+    print(cargo)
 
-
-
+i = 0
+while i < 3:
+    print(valores[i])
+    i += 1
+```
 
 
 
