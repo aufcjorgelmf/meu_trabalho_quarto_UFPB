@@ -185,7 +185,7 @@ Abaixo, destacamos os principais operadores do **Python**:
 
 ### 5.2.3 Exemplos dos principais operadores do Python
 ::: {.justify}
-A seguir, são apresentados exemplos do emprego dos diversos operadores do Pyton.
+A seguir, são apresentados exemplos do emprego dos diversos operadores do Phyton.
 :::
 ####  - Operadores Aritméticos
 ```bash
@@ -234,6 +234,72 @@ salario = 6000
     print(not idade < 18)                 
       True (porque idade < 18 é False)
 ```
+
+## 🧠 6 Estruturas de Dados: Listas, Tuplas e Dicionários
+::: {.justify}
+As estruturas de dados armazenam coleções de valores, permitindo organizar e acessar múltiplos itens de forma eficiente.
+:::
+
+### 6.1 Listas (list)
+::: {.justify}
+As estruturas de dados que **armazenam coleções de valores**, permitindo organizar e acessar múltiplos itens de forma eficiente.
+:::
+
+```bash
+
+cargos = ["Auditor", "Analista", "Técnico"]
+
+```
+
+### 6.2 Tuplas (tuple)
+::: {.justify}
+Coleção ordenada e **imutável**. Usada para **dados que não devem ser alterados**.
+:::
+
+```bash
+
+valores = (10, 20, 30)
+
+```
+
+### 6.3 Dicionário (dict)
+::: {.justify}
+Coleção não ordenada de **pares chave:valor**. Muito útil para **representar entidades nomeadas**.
+:::
+
+```bash
+
+servidor = {"nome": "Jorge", "cargo": "Auditor", "ativo": True}
+
+```
+::: {.justify}
+Um **iterável** é um *objeto pelo qual podemos iterar*. Basicamente, uma boa regra prática é que se o *objeto deve ser uma coleção de outros objetos*, é muito provável que *queiramos tratá-los todos da mesma maneira, mas talvez não todos ao mesmo tempo*, sendo assim um *objeto iterável* e iremos iterar sobre ele com, um "laço for" - que será visto posteriormente, em tópico específico. 
+:::
+
+## 🧠 7 Estruturas de Controle 
+::: {.justify}
+As estruturas de controle permitem definir o fluxo de execução do programa, com base em condições ou repetições.
+:::
+
+### 7.1 Estruturas Condicionais
+::: {.justify}
+Usadas para executar blocos de código com base em uma condição lógica.
+:::
+
+```bash
+if idade >= 60:
+    print("Idoso")
+elif idade >= 18:
+    print("Adulto")
+else:
+    print("Menor de idade")
+```
+
+
+
+
+
+
 
 
 
