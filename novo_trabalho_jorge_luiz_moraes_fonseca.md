@@ -112,7 +112,7 @@ gh pr create --title "Nova função" --body "Inclui análise de risco." --base m
 
 ```
 
-## 4.Gerenciador de Pacotes Python `pip`
+## 4. Gerenciador de Pacotes Python `pip`
 
 ::: {.justify}
 O `pip` (Python Installer Package) é o gerenciador oficial de pacotes do Python, permitindo instalação, atualização e remoção de bibliotecas disponível no repositório **PyPI - Python Package Index**.
@@ -235,7 +235,7 @@ salario = 6000
       True (porque idade < 18 é False)
 ```
 
-## 6 Estruturas de Dados: Listas, Tuplas e Dicionários
+## 6. Estruturas de Dados: Listas, Tuplas e Dicionários
 ::: {.justify}
 As estruturas de dados armazenam coleções de valores, permitindo organizar e acessar múltiplos itens de forma eficiente.
 :::
@@ -276,7 +276,7 @@ servidor = {"nome": "Jorge", "cargo": "Auditor", "ativo": True}
 Um **iterável** é um *objeto pelo qual podemos iterar*. Basicamente, uma boa regra prática é que se o *objeto deve ser uma coleção de outros objetos*, é muito provável que *queiramos tratá-los todos da mesma maneira, mas talvez não todos ao mesmo tempo*, sendo assim um *objeto iterável* e iremos iterar sobre ele com, um "laço for" - que será visto posteriormente, em tópico específico. 
 :::
 
-##  7 Estruturas de Controle 
+## 7. Estruturas de Controle 
 ::: {.justify}
 As estruturas de controle permitem definir o fluxo de execução do programa, com base em condições ou repetições.
 :::
