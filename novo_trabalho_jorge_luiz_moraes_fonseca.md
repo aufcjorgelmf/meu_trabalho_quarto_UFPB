@@ -369,7 +369,7 @@ print(f"A média dos valores é: {media}")
 
 ```
 ::: {.justify}
-É possível importar bibliotecas nativas (como math) ou externas (como pandas, numpy, matplotlib) instaladas com pip.
+É possível importar tanto bibliotecas nativas (como math), quanto bibliotecas externas (como Pandas, Numpy e Matplotlib, por exemplo), instaladas por meio do pip (comando *pip install*).
 :::
 
 
