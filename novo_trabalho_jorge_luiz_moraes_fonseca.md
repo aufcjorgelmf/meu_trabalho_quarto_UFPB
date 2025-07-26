@@ -23,9 +23,9 @@ Também é propósito do presente trabalho abordar tópicos introdutórios da li
 Busca-se oferecer ao leitor um primeiro contato com essas tecnologias, viabilizando domínio inicial para aplicações imediatas em seus respectivos contextos.
 :::
 
-!["Git e GitHub"][git.png]{width=70% fig-align="center"}
-
 ## 2. O Git – Sistema de Controle de Versão
+
+![Git](git.png){width=60% fig-align="center"}
 
 ::: {.justify}
 O **Git** é uma ferramenta de linha de comando para controle de versões. Abaixo, suas principais características:
@@ -60,6 +60,8 @@ O **Git** possui diversos comandos, destacando-se dentre eles os seguinte, acomp
 
 
 ## 3. O GitHub – Plataforma de Hospedagem e Colaboração
+
+![GitHub](GitHub.png){width=40% fig-align="center"}
 
 ::: {.justify}
 O **GitHub** é uma plataforma web baseada em Git com recursos colaborativos, apresentando as seguintes características:
@@ -113,15 +115,18 @@ gh issue create --title "Corrigir README" --body "Faltam instruções."
 gh pr create --title "Nova função" --body "Inclui análise de risco." --base main
 
 ```
+```
+
+```
 
 ## 4. Gerenciador de Pacotes Python `pip`
+
+![Pip Install](PipInstall.png){width=50% fig-align="center"}
 
 ::: {.justify}
 O `pip` (Python Installer Package) é o gerenciador oficial de pacotes do Python, permitindo instalação, atualização e remoção de bibliotecas disponível no repositório **PyPI - Python Package Index**.
 :::
-::: {.justify}
-Ele automatiza o processo de obtenção de bibliotecas externas, a exemplo das bibliotecas **Pandas**, **Numpy**, **Mathplotlib**, **Seaborn**, **Keras**, dentre tantas outras, sendo fundamental para projetos em ciência de dados, automação, aprendizado de máquina, web e desenvolvimento geral em Python.
-:::
+
 
 ### 4.1 Tabela de Comandos `pip`
 
@@ -143,6 +148,9 @@ Ele automatiza o processo de obtenção de bibliotecas externas, a exemplo das b
 
 
 ## 5. Conceitos Iniciais da Linguagem Python
+
+![Python](Python.png){width=40% fig-align="center"}
+
 ::: {.justify}
 Este tópico apresenta os fundamentos essenciais da linguagem de programação **Python**, utilizada amplamente em projetos de automação, ciência de dados, auditoria, aprendizado de máquina, desenvolvimento web e análise de informações públicas. Python destaca-se por sua sintaxe simples, legibilidade e extensa comunidade.
 :::
@@ -342,19 +350,37 @@ onde:
 - **return** define o valor de saída da função.
 
 ```
-## 9. Importação de Bibliotecas
+## 9. Importação de Bibliotecas externas ao Python
+
 ::: {.justify}
-As bibliotecas contêm funções e classes prontas para tarefas específicas. Usar import permite incluir essas ferramentas no seu código.
+As bibliotecas contêm funções e classes prontas para tarefas específicas. Usar import permite incluir essas ferramentas no seu código, potencializando o emprego de ferramentas criadas em Python, porém destinadas a propósitos específicos.
 :::
 
 ```bash
 import math
 print(math.sqrt(25))  # saída: 5.0
-
-import pandas as pd
-df = pd.DataFrame()   # cria um dataframe, que apresenta forma de planilha, possibilitando realizar "query's", entre dados, semelhante ao SQL (seleção de dados, em uma ou mais tabelas, conforme regras pré-definidas)
-
 ```
+::: {.justify}
+É possível importar tanto bibliotecas nativas (como math), quanto bibliotecas externas (como Pandas, Numpy e Matplotlib, por exemplo), instaladas por meio do pip (comando *pip install*).
+:::
+
+::: {.justify}
+Há diversas bibliotecas de caráter específico, a exemplo da biblioteca Pandas. Por meio do commando "import pandas as pd", é possível cria um dataframe, que apresenta forma de planilha, porem podendo realizar "query's", qua nada mais são que consultas estruturadas entre dados colunares, se assemelhando muito às consultas do SQL (seleção de dados, em uma ou mais tabelas, conforme regras pré-definidas)
+:::
+![Biblioteca Pandas](Pandas.svg){width=70% fig-align="center"}
+
+
+::: {.justify}
+De igaul modo, ressaltamos outras bibliotecas específicas, todas baseadas em Python, a exemplo das bibliotecas **Numpy**, **Mathplotlib**, **Seaborn**, **Keras**, sendo fundamentais para projetos como ciência de dados, automação de processos, aprendizado de máquina, raspagem de dados da web, etc.
+:::
+
+![Numpy](numpylogo.svg){width=30% fig-align="left"} ![Seaborn](Seaborn.png){width=30% fig-align="rigth"}
+
+![Keras](Keras.png){width=30% fig-align="left"}         ![Matplotlib](Matplotlib.png){width=30% fig-align="rigth"}
+
+::: {.justify}
+A seguir, exemplicamos o emprego da biblioteca Numpy.
+:::
 ```bash
 import numpy as np
 
@@ -370,34 +396,4 @@ media = np.mean(array_valores)
 print(f"A média dos valores é: {media}")
 
 ```
-::: {.justify}
-É possível importar tanto bibliotecas nativas (como math), quanto bibliotecas externas (como Pandas, Numpy e Matplotlib, por exemplo), instaladas por meio do pip (comando *pip install*).
-:::
 
-
-
-
-<div style="background-color: #f0f8ff; padding: 10px; border-radius: 8px; border: 1px solid #ccc;">
-
-<table>
-  <thead>
-    <tr>
-      <th>Item</th>
-      <th>Descrição</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Git</td>
-      <td>Controle de versão local e distribuído</td>
-    </tr>
-    <tr>
-      <td>GitHub</td>
-      <td>Plataforma de hospedagem e colaboração</td>
-    </tr>
-  </tbody>
-</table>
-
-</div>
-
-[def]: "D:/Meus_Projetos_Quarto/meu_trabalho_quarto_UFPB/git.png"
