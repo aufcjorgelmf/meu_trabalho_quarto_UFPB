@@ -23,6 +23,8 @@ Também é propósito do presente trabalho abordar tópicos introdutórios da li
 Busca-se oferecer ao leitor um primeiro contato com essas tecnologias, viabilizando domínio inicial para aplicações imediatas em seus respectivos contextos.
 :::
 
+!["Git e GitHub"][git.png]{width=70% fig-align="center"}
+
 ## 2. O Git – Sistema de Controle de Versão
 
 ::: {.justify}
@@ -397,3 +399,5 @@ print(f"A média dos valores é: {media}")
 </table>
 
 </div>
+
+[def]: "D:/Meus_Projetos_Quarto/meu_trabalho_quarto_UFPB/git.png"
