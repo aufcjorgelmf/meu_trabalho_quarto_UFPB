@@ -112,6 +112,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#estruturas-de-controle" id="toc-estruturas-de-controle" class="nav-link" data-scroll-target="#estruturas-de-controle">7. Estruturas de Controle</a>
   <ul class="collapse">
   <li><a href="#estruturas-condicionais" id="toc-estruturas-condicionais" class="nav-link" data-scroll-target="#estruturas-condicionais">7.1 Estruturas Condicionais</a></li>
+  <li><a href="#estruturas-de-repetição" id="toc-estruturas-de-repetição" class="nav-link" data-scroll-target="#estruturas-de-repetição">7.2 Estruturas de Repetição</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -637,6 +638,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>    <span class="ex">print</span><span class="er">(</span><span class="st">"Adulto"</span><span class="kw">)</span></span>
 <span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="ex">else:</span></span>
 <span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>    <span class="ex">print</span><span class="er">(</span><span class="st">"Menor de idade"</span><span class="kw">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="estruturas-de-repetição" class="level3">
+<h3 class="anchored" data-anchor-id="estruturas-de-repetição">7.2 Estruturas de Repetição</h3>
+<div class="justify">
+<p>Usados para executar blocos de código múltiplas vezes. Pode ser realizada com o comando <em>for</em> ou com o comando <em>while</em>. No caso do laço com <em>for</em>, o número de repetições é pré-definido; ao passo que o laço <em>while</em> se repete até quando a condição se concretize.</p>
+</div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> cargo <span class="kw">in</span> cargos:</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    <span class="ex">print</span><span class="er">(</span><span class="ex">cargo</span><span class="kw">)</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="ex">i</span> = 0</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="ex">i</span> <span class="op">&lt;</span> 3:</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    <span class="ex">print</span><span class="er">(</span><span class="va">valores</span><span class="op">[</span>i<span class="op">]</span><span class="kw">)</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>    <span class="ex">i</span> += 1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div style="background-color: #f0f8ff; padding: 10px; border-radius: 8px; border: 1px solid #ccc;">
 <table>
 <thead>
