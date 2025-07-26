@@ -39,7 +39,7 @@ O **Git** é uma ferramenta de linha de comando para controle de versões. Abaix
 - <u>Funciona offline</u>: e 
 - <u>Integração com IDEs e pipelines</u>, dentre outras.
 
-### 🧠 2.1 Comandos Essenciais do Git (Operações Locais)
+### 2.1 Comandos Essenciais do Git (Operações Locais)
 ::: {.justify}
 O **Git** possui diversos comandos, destacando-se dentre eles os seguinte, acompanhados de suscintas descrições de seu emprego:
 :::
@@ -73,7 +73,7 @@ O **GitHub** é uma plataforma web baseada em Git com recursos colaborativos, ap
 - <u>Forks e contribuições externas</u>, que nada mais é que uma cópia independente de um repositório GitHub, próprio ou de outras pessoas, permitindo que se estude, edite, promovam-se melhorias sem afetar o projeto alheio, remetendo as alterações e/ou melhorias, por  meio do comando <u>Pull Request</u>; e
 - <u>Estatísticas e gráficos de colaboração</u>, dentre outras caracter[isticas.]
 
-### 🧠 3.1 Principais Ações no GitHub (Interface Web)
+### 3.1 Principais Ações no GitHub (Interface Web)
 
 | Ação                    | Descrição                                                                                  |
 |-------------------------|--------------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ O **GitHub** é uma plataforma web baseada em Git com recursos colaborativos, ap
 | *Configurar Actions*      | Automatização de testes e deploy                                                           |
 | *Gerenciar colaboradores* | Definir quem pode ler, editar e administrar                                                |
 
-### 🧠 3.2 Principais Comandos do GitHub CLI (`gh`)
+### 3.2 Principais Comandos do GitHub CLI (`gh`)
 
 | Comando                            | Descrição                                                       |
 |------------------------------------|------------------------------------------------------------------|
@@ -102,7 +102,7 @@ O **GitHub** é uma plataforma web baseada em Git com recursos colaborativos, ap
 | `gh repo fork`                    | Faz fork de repositório                                         |
 | `gh gist create`                  | Cria um *gist* (bloco de código público ou privado)             |
 
-### 🧠 3.3 Exemplos com `gh` (linha de comando)
+### 3.3 Exemplos com `gh` (linha de comando)
 
 ```bash
 gh repo create nome-repositorio/documentacao-git --public --confirm
@@ -121,7 +121,7 @@ O `pip` (Python Installer Package) é o gerenciador oficial de pacotes do Python
 Ele automatiza o processo de obtenção de bibliotecas externas, a exemplo das bibliotecas **Pandas**, **Numpy**, **Mathplotlib**, **Seaborn**, **Keras**, dentre tantas outras, sendo fundamental para projetos em ciência de dados, automação, aprendizado de máquina, web e desenvolvimento geral em Python.
 :::
 
-### 🧠 4.1 Tabela de Comandos `pip`
+### 4.1 Tabela de Comandos `pip`
 
 | Finalidade                        | Comando                                  | Exemplo                                       |
 |----------------------------------|------------------------------------------|-----------------------------------------------|
@@ -145,7 +145,7 @@ Ele automatiza o processo de obtenção de bibliotecas externas, a exemplo das b
 Este tópico apresenta os fundamentos essenciais da linguagem de programação **Python**, utilizada amplamente em projetos de automação, ciência de dados, auditoria, aprendizado de máquina, desenvolvimento web e análise de informações públicas. Python destaca-se por sua sintaxe simples, legibilidade e extensa comunidade.
 :::
 
-### 🧠 5.1 Tipos de Dados Fundamentais
+### 5.1 Tipos de Dados Fundamentais
 ::: {.justify}
 Os **tipos de dados** representam as diferentes categorias de valores que podem ser manipuladas em Python. Cada tipo define o comportamento e operações possíveis sobre o dado.
 :::
@@ -157,7 +157,7 @@ Os **tipos de dados** representam as diferentes categorias de valores que podem 
 | `str`     | Cadeias de caracteres (textos), sempre entre aspas simples ou duplas      | `nome = "Pedro"`   |
 | `bool`    | Valores booleanos, representando lógica binária (Verdadeiro/Falso)        | `ativo = True`     |
 
-### 🧠 5.2 Variáveis e Operadores Básicos
+### 5.2 Variáveis e Operadores Básicos
 ::: {.justify}
 As **variáveis** são nomes associados a valores que podem ser armazenados e manipulados ao longo da execução do programa. Os **operadores** realizam operações aritméticas, lógicas ou de comparação.
 :::
@@ -235,7 +235,7 @@ salario = 6000
       True (porque idade < 18 é False)
 ```
 
-## 🧠 6 Estruturas de Dados: Listas, Tuplas e Dicionários
+## 6 Estruturas de Dados: Listas, Tuplas e Dicionários
 ::: {.justify}
 As estruturas de dados armazenam coleções de valores, permitindo organizar e acessar múltiplos itens de forma eficiente.
 :::
@@ -276,7 +276,7 @@ servidor = {"nome": "Jorge", "cargo": "Auditor", "ativo": True}
 Um **iterável** é um *objeto pelo qual podemos iterar*. Basicamente, uma boa regra prática é que se o *objeto deve ser uma coleção de outros objetos*, é muito provável que *queiramos tratá-los todos da mesma maneira, mas talvez não todos ao mesmo tempo*, sendo assim um *objeto iterável* e iremos iterar sobre ele com, um "laço for" - que será visto posteriormente, em tópico específico. 
 :::
 
-## 🧠 7 Estruturas de Controle 
+##  7 Estruturas de Controle 
 ::: {.justify}
 As estruturas de controle permitem definir o fluxo de execução do programa, com base em condições ou repetições.
 :::

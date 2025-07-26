@@ -103,6 +103,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#variáveis-e-operadores-básicos" id="toc-variáveis-e-operadores-básicos" class="nav-link" data-scroll-target="#variáveis-e-operadores-básicos">🧠 5.2 Variáveis e Operadores Básicos</a></li>
   <li><a href="#exemplos-dos-principais-operadores-do-python" id="toc-exemplos-dos-principais-operadores-do-python" class="nav-link" data-scroll-target="#exemplos-dos-principais-operadores-do-python">5.2.3 Exemplos dos principais operadores do Python</a></li>
   </ul></li>
+  <li><a href="#estruturas-de-dados-listas-tuplas-e-dicionários" id="toc-estruturas-de-dados-listas-tuplas-e-dicionários" class="nav-link" data-scroll-target="#estruturas-de-dados-listas-tuplas-e-dicionários">🧠 6 Estruturas de Dados: Listas, Tuplas e Dicionários</a>
+  <ul class="collapse">
+  <li><a href="#listas-list" id="toc-listas-list" class="nav-link" data-scroll-target="#listas-list">6.1 Listas (list)</a></li>
+  <li><a href="#tuplas-tuple" id="toc-tuplas-tuple" class="nav-link" data-scroll-target="#tuplas-tuple">6.2 Tuplas (tuple)</a></li>
+  <li><a href="#dicionário-dict" id="toc-dicionário-dict" class="nav-link" data-scroll-target="#dicionário-dict">6.3 Dicionário (dict)</a></li>
+  </ul></li>
+  <li><a href="#estruturas-de-controle" id="toc-estruturas-de-controle" class="nav-link" data-scroll-target="#estruturas-de-controle">🧠 7 Estruturas de Controle</a>
+  <ul class="collapse">
+  <li><a href="#estruturas-condicionais" id="toc-estruturas-condicionais" class="nav-link" data-scroll-target="#estruturas-condicionais">7.1 Estruturas Condicionais</a></li>
+  </ul></li>
   </ul>
 </nav>
 </div>
@@ -522,7 +532,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="exemplos-dos-principais-operadores-do-python" class="level3">
 <h3 class="anchored" data-anchor-id="exemplos-dos-principais-operadores-do-python">5.2.3 Exemplos dos principais operadores do Python</h3>
 <div class="justify">
-<p>A seguir, são apresentados exemplos do emprego dos diversos operadores do Pyton.</p>
+<p>A seguir, são apresentados exemplos do emprego dos diversos operadores do Phyton.</p>
 </div>
 <section id="operadores-aritméticos" class="level4">
 <h4 class="anchored" data-anchor-id="operadores-aritméticos">- Operadores Aritméticos</h4>
@@ -566,6 +576,58 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="ex">*Operador</span> NOT: inverte o valor lógico<span class="pp">*</span></span>
 <span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    <span class="ex">print</span><span class="er">(</span><span class="ex">not</span> idade <span class="op">&lt;</span> 18<span class="kw">)</span>                 </span>
 <span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>      <span class="ex">True</span> <span class="er">(</span><span class="ex">porque</span> idade <span class="op">&lt;</span> 18 é False<span class="kw">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+</section>
+<section id="estruturas-de-dados-listas-tuplas-e-dicionários" class="level2">
+<h2 class="anchored" data-anchor-id="estruturas-de-dados-listas-tuplas-e-dicionários">🧠 6 Estruturas de Dados: Listas, Tuplas e Dicionários</h2>
+<div class="justify">
+<p>As estruturas de dados armazenam coleções de valores, permitindo organizar e acessar múltiplos itens de forma eficiente.</p>
+</div>
+<section id="listas-list" class="level3">
+<h3 class="anchored" data-anchor-id="listas-list">6.1 Listas (list)</h3>
+<div class="justify">
+<p>As estruturas de dados que <strong>armazenam coleções de valores</strong>, permitindo organizar e acessar múltiplos itens de forma eficiente.</p>
+</div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="ex">cargos</span> = [<span class="st">"Auditor"</span>, <span class="st">"Analista"</span>, <span class="st">"Técnico"</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="tuplas-tuple" class="level3">
+<h3 class="anchored" data-anchor-id="tuplas-tuple">6.2 Tuplas (tuple)</h3>
+<div class="justify">
+<p>Coleção ordenada e <strong>imutável</strong>. Usada para <strong>dados que não devem ser alterados</strong>.</p>
+</div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="ex">valores</span> = <span class="er">(</span><span class="ex">10,</span> 20, 30<span class="kw">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="dicionário-dict" class="level3">
+<h3 class="anchored" data-anchor-id="dicionário-dict">6.3 Dicionário (dict)</h3>
+<div class="justify">
+<p>Coleção não ordenada de <strong>pares chave:valor</strong>. Muito útil para <strong>representar entidades nomeadas</strong>.</p>
+</div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="ex">servidor</span> = {<span class="st">"nome"</span>: <span class="st">"Jorge"</span>, <span class="st">"cargo"</span>: <span class="st">"Auditor"</span>, <span class="st">"ativo"</span>: True}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="justify">
+<p>Um <strong>iterável</strong> é um <em>objeto pelo qual podemos iterar</em>. Basicamente, uma boa regra prática é que se o <em>objeto deve ser uma coleção de outros objetos</em>, é muito provável que <em>queiramos tratá-los todos da mesma maneira, mas talvez não todos ao mesmo tempo</em>, sendo assim um <em>objeto iterável</em> e iremos iterar sobre ele com, um “laço for” - que será visto posteriormente, em tópico específico.</p>
+</div>
+</section>
+</section>
+<section id="estruturas-de-controle" class="level2">
+<h2 class="anchored" data-anchor-id="estruturas-de-controle">🧠 7 Estruturas de Controle</h2>
+<div class="justify">
+<p>As estruturas de controle permitem definir o fluxo de execução do programa, com base em condições ou repetições.</p>
+</div>
+<section id="estruturas-condicionais" class="level3">
+<h3 class="anchored" data-anchor-id="estruturas-condicionais">7.1 Estruturas Condicionais</h3>
+<div class="justify">
+<p>Usadas para executar blocos de código com base em uma condição lógica.</p>
+</div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="ex">idade</span> <span class="op">&gt;</span>= 60:</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    <span class="ex">print</span><span class="er">(</span><span class="st">"Idoso"</span><span class="kw">)</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="cf">elif</span> <span class="ex">idade</span> <span class="op">&gt;</span>= 18:</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    <span class="ex">print</span><span class="er">(</span><span class="st">"Adulto"</span><span class="kw">)</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="ex">else:</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    <span class="ex">print</span><span class="er">(</span><span class="st">"Menor de idade"</span><span class="kw">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div style="background-color: #f0f8ff; padding: 10px; border-radius: 8px; border: 1px solid #ccc;">
 <table>
 <thead>
@@ -598,7 +660,6 @@ Plataforma de hospedagem e colaboração
 </tbody>
 </table>
 </div>
-</section>
 </section>
 </section>
 
