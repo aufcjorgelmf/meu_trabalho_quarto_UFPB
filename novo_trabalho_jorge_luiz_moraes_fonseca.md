@@ -406,4 +406,11 @@ media = np.mean(array_valores)
 print(f"A média dos valores é: {media}")
 
 ```
+## 10. Bibliografia
+::: {.justify}
 
+1. MCKINNEY, Wes. *Python para Análise de Dados - Tratamento de dados com Pandas, NumPy e Jupter*.São Paulo:Novatec Editora Ltda, 2023.
+2. SUMMERFIELD, Mark. *Programação em Python 3 - Uma Introdução Completa á Linguagem Python*. Rio de Janeiro:Alta Books Editora, 2013.
+3. QUARTO. Documentação oficial: Quarto – Scientific and Technical Publishing. 2025. Disponível em: https://quarto.org/docs/. Acesso em: 25 jul. 2025.
+4. PEP8 – Style Guide for Python Code. Python Software Foundation, 2023. Disponível em: https://peps.python.org/pep-0008/. Acesso em: 25 jul. 2025.
+5. PSF – Python Software Foundation. NumPy Documentation. Disponível em: https://numpy.org/doc/stable/. Acesso em: 25 jul. 2025.
