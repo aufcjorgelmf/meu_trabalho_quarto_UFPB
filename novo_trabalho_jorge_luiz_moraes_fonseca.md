@@ -12,15 +12,15 @@ format:
 ## 1. Objetivo do Presente Trabalho
 
 ::: {.justify}
-O presente trabalho tem como objetivos apresentar os fundamentos e comandos essenciais do sistema de controle de versão **Git** e da plataforma de hospedagem remota e de colaboração **GitHub**, de forma clara e objetiva, no que tange ao funcionamento de ambientes locais e sua integração com repositórios remotos.
+O presente trabalho tem como objetivos apresentar os fundamentos e comandos essenciais do sistema de controle de versão **Git** e da plataforma de hospedagem remota de colaboração **GitHub**, de forma clara, objetiva e concisa, no que tange ao funcionamento de ambientes locais e sua integração com repositórios remotos.
 :::
 
 ::: {.justify}
-Também é propósito do presente trabalho abordar tópicos introdutórios da linguagem **Python**, com foco em estruturas básicas, instalação de bibliotecas e usos práticos em contextos profissionais, educacionais e científicos.
+Ademais, é propósito do presente trabalho abordar tópicos introdutórios da linguagem **Python**, com foco em estruturas básicas, instalação de bibliotecas e usos práticos em contextos profissionais, educacionais e científicos.
 :::
 
 ::: {.justify}
-Busca-se oferecer ao leitor um primeiro contato com essas tecnologias, viabilizando domínio inicial para aplicações imediatas em seus respectivos contextos.
+Dessa forma, buscou-se oferecer ao leitor documento simples e objetivo, apropriado a um primeiro contato com o "Universo Python", conferindo conhecimento suficiente para utilizar essa linguagem de programação na solução de problemas simples, bem como dispertar a sua curiosidade em conhecer outras ferramentas específicas, todas construídas com a linguagem Python.
 :::
 
 ## 2. O Git – Sistema de Controle de Versão
@@ -28,7 +28,7 @@ Busca-se oferecer ao leitor um primeiro contato com essas tecnologias, viabiliza
 ![Git](git.png){width=60% fig-align="center"}
 
 ::: {.justify}
-O **Git** é uma ferramenta de linha de comando para controle de versões. Abaixo, suas principais características:
+O **Git** é uma ferramenta de linha de comando, destinada ao armazenamento, gerenciamento e controle de versões de aplicações computacionais. Abaixo, relacionou-se as suas principais características:
 :::
 
 - <u>Distribuído</u>: cada desenvolvedor possui uma cópia completa do repositório;
@@ -43,7 +43,7 @@ O **Git** é uma ferramenta de linha de comando para controle de versões. Abaix
 
 ### 2.1 Comandos Essenciais do Git (Operações Locais)
 ::: {.justify}
-O **Git** possui diversos comandos, destacando-se dentre eles os seguinte, acompanhados de suscintas descrições de seu emprego:
+O **Git** possui diversos comandos, destacando-se dentre eles aqueles a seguir apresentados, acompanhados de suscintas descrições de seu emprego:
 :::
 
 | Comando           | O que faz                                                                 | Exemplo de uso                                    |
@@ -64,7 +64,7 @@ O **Git** possui diversos comandos, destacando-se dentre eles os seguinte, acomp
 ![GitHub](GitHub.png){width=40% fig-align="center"}
 
 ::: {.justify}
-O **GitHub** é uma plataforma web baseada em Git com recursos colaborativos, apresentando as seguintes características:
+À semelhança do Git, o **GitHub** se apresenta como uma plataforma, via web e baseada no Git, possuindo recursos computacionais que propiciam atuação colaborativa entre seus usuários, apresentando as seguintes características:
 :::
 
 - <u>Hospedagem de repositórios remotos</u> (públicos e privados);
@@ -78,6 +78,9 @@ O **GitHub** é uma plataforma web baseada em Git com recursos colaborativos, ap
 - <u>Estatísticas e gráficos de colaboração</u>, dentre outras caracter[isticas.]
 
 ### 3.1 Principais Ações no GitHub (Interface Web)
+::: {.justify}
+Relacionamos rol sumarizado de ações possíveis de serem realizadas no GitHub, como se segue:
+:::
 
 | Ação                    | Descrição                                                                                  |
 |-------------------------|--------------------------------------------------------------------------------------------|
@@ -92,6 +95,9 @@ O **GitHub** é uma plataforma web baseada em Git com recursos colaborativos, ap
 | *Gerenciar colaboradores* | Definir quem pode ler, editar e administrar                                                |
 
 ### 3.2 Principais Comandos do GitHub CLI (`gh`)
+::: {.justify}
+Seguem os principais comandos do GitHub, acompanhados de descrição sumária do seus respectivos empregos. 
+:::
 
 | Comando                            | Descrição                                                       |
 |------------------------------------|------------------------------------------------------------------|
@@ -107,15 +113,14 @@ O **GitHub** é uma plataforma web baseada em Git com recursos colaborativos, ap
 | `gh gist create`                  | Cria um *gist* (bloco de código público ou privado)             |
 
 ### 3.3 Exemplos com `gh` (linha de comando)
-
+::: {.justify}
+A seguir, seguem exemplos do emprego de alguns comandos do GitHub, mencionados acima:
+:::
 ```bash
 gh repo create nome-repositorio/documentacao-git --public --confirm
 gh repo clone nome-repositorio/documentacao-git
 gh issue create --title "Corrigir README" --body "Faltam instruções."
 gh pr create --title "Nova função" --body "Inclui análise de risco." --base main
-
-```
-```
 
 ```
 
@@ -126,9 +131,10 @@ gh pr create --title "Nova função" --body "Inclui análise de risco." --base m
 ::: {.justify}
 O `pip` (Python Installer Package) é o gerenciador oficial de pacotes do Python, permitindo instalação, atualização e remoção de bibliotecas disponível no repositório **PyPI - Python Package Index**.
 :::
-
-
+::: {.justify}
 ### 4.1 Tabela de Comandos `pip`
+:::
+De forma bem sumária, apresentam-se alguns dos principais comandos da biblioteca pip, como se segue:
 
 | Finalidade                        | Comando                                  | Exemplo                                       |
 |----------------------------------|------------------------------------------|-----------------------------------------------|
@@ -156,6 +162,7 @@ Este tópico apresenta os fundamentos essenciais da linguagem de programação *
 :::
 
 ### 5.1 Tipos de Dados Fundamentais
+
 ::: {.justify}
 Os **tipos de dados** representam as diferentes categorias de valores que podem ser manipuladas em Python. Cada tipo define o comportamento e operações possíveis sobre o dado.
 :::
@@ -168,11 +175,14 @@ Os **tipos de dados** representam as diferentes categorias de valores que podem 
 | `bool`    | Valores booleanos, representando lógica binária (Verdadeiro/Falso)        | `ativo = True`     |
 
 ### 5.2 Variáveis e Operadores Básicos
+
 ::: {.justify}
 As **variáveis** são nomes associados a valores que podem ser armazenados e manipulados ao longo da execução do programa. Os **operadores** realizam operações aritméticas, lógicas ou de comparação.
 :::
 #### 5.2.1 Exemplos de atribuição de valores a variáveis:
-
+::: {.justify}
+Seguem exemplos de atribuições a variáveis.
+:::
 ```bash
   python
 nome = "Jorge"
