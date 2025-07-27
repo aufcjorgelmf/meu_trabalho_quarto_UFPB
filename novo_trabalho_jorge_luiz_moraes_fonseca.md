@@ -126,7 +126,7 @@ gh pr create --title "Nova função" --body "Inclui análise de risco." --base m
 
 ## 4. Gerenciador de Pacotes Python `pip`
 
-![Pip Install](PipInstall.png){width=50% fig-align="center"}
+![Pip Install](PipInstall.png){width=40% fig-align="center"}
 
 ::: {.justify}
 O `pip` (Python Installer Package) é o gerenciador oficial de pacotes do Python, permitindo instalação, atualização e remoção de bibliotecas disponível no repositório **PyPI - Python Package Index**.
@@ -377,7 +377,7 @@ print(math.sqrt(25))  # saída: 5.0
 ::: {.justify}
 Há diversas bibliotecas de caráter específico, a exemplo da biblioteca Pandas. Por meio do commando "import pandas as pd", é possível cria um dataframe, que apresenta forma de planilha, porem podendo realizar "query's", qua nada mais são que consultas estruturadas entre dados colunares, se assemelhando muito às consultas do SQL (seleção de dados, em uma ou mais tabelas, conforme regras pré-definidas)
 :::
-![Biblioteca Pandas](Pandas.svg){width=70% fig-align="center"}
+![Biblioteca Pandas](Pandas.svg){width=50% fig-align="center"}
 
 
 ::: {.justify}
