@@ -371,7 +371,7 @@ import math
 print(math.sqrt(25))  # saída: 5.0
 ```
 ::: {.justify}
-É possível importar tanto bibliotecas nativas (como math), quanto bibliotecas externas (como Pandas, Numpy e Matplotlib, por exemplo), instaladas por meio do pip (comando *pip install*).
+É possível tanto importar tanto bibliotecas nativas (como math), quanto bibliotecas externas (como Pandas, Numpy e Matplotlib, por exemplo), instaladas por meio do pip (comando *pip install*).
 :::
 
 ::: {.justify}
