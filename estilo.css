@@ -25,3 +25,31 @@ p {
   background-color: #888;
   border-radius: 3px;
 }
+
+/* Justifica todos os parágrafos */
+/*p {
+  text-align: justify;
+  text-justify: inter-word; /* melhor distribuição entre palavras 
+}*/
+
+.reveal p,
+html body p,
+p {
+  text-align: justify !important;
+}
+
+/* Habilita rolagem vertical no menu lateral da TOC */
+.sidebar nav.toc {
+  max-height: 90vh;           /* altura máxima relativa à tela */
+  overflow-y: auto;           /* adiciona rolagem vertical se necessário */
+  padding-right: 10px;        /* evita corte do texto no scroll */
+}
+
+.sidebar nav.toc::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar nav.toc::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 3px;
+}

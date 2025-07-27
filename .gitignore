@@ -1,1 +1,11 @@
 /.quarto/
+*.log
+*.aux
+*.toc
+*.out
+*.Rproj.user/
+.DS_Store
+Thumbs.db
+
+
+
